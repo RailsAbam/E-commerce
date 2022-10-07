@@ -1,7 +1,12 @@
 <body>
     <section>
+
         <div class = "cards">
             <div class ="top">
+                <form action="upload.php" method="post" enctype="multipart/form-data">  
+                    <input type="file" name="Profile Picture" accept="image/*" capture="camera">  
+                    <input type="submit" value="Upload">  
+                 </form>
                 <h3 class = "name">Your Profile<span class = "status"></span></h3>
                 <p class = "title">Your Details</p>
             </div>

@@ -8,26 +8,26 @@
       <div class="collapse nav-bar-destop navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <%= link_to "Battery", home_batteries_path, class: "nav-link nav-link-color" %>
+            <%= link_to "Battery", home_batteries_path, class: "nav-link nav-link-color", class: "btn auth-btn small-btn login-btn" %>
 
           </li>
           <li class="nav-item">
-            <%= link_to "Inverters", home_inverters_path, class: "nav-link nav-link-color" %>
+            <%= link_to "Inverters", home_inverters_path, class: "nav-link nav-link-color", class: "btn auth-btn small-btn login-btn" %>
           </li>
           <li class="nav-item">
-            <%= link_to "Solar", home_solar_path, class: "nav-link nav-link-color" %>
+            <%= link_to "Solar", home_solar_path, class: "nav-link nav-link-color", class: "btn auth-btn small-btn login-btn" %>
           </li>
           <li class="nav-item">
-            <%= link_to "FAQ", home_inquire_path, class: "nav-link nav-link-color" %>
+            <%= link_to "Installation", home_install_path, class: "nav-link nav-link-color", class: "btn auth-btn small-btn login-btn" %>
           </li>
 
           <li class="nav-item">
-            <%= link_to "Installations", home_install_path, class: "nav-link nav-link-color" %>
+            <%= link_to "FAQs", home_inquire_path, class: "nav-link nav-link-color", class: "btn auth-btn small-btn login-btn" %>
           </li>
 
         </ul>
         <div class="d-flex">
-             <%= link_to "Sign Out", destroy_user_session_path , method: :delete , class: "btn auth-btn register-btn" %>
+             <%= link_to "Sign Out", destroy_user_session_path , method: :delete , class: "btn auth-btn small-btn register-btn" %>
             <%=link_to "Log in", new_user_session_path , class: "btn auth-btn small-btn login-btn" %>
             <%= link_to "Register", new_user_registration_path , class: "btn auth-btn register-btn small-btn" %>
             <%= link_to "Profile", home_profile_path , method: :delete , class: "btn auth-btn small-btn login-btn" %>
