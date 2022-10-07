@@ -156,3 +156,661 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 48ms (Views: 46.9ms | Allocations: 9131)
 
 
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-07 21:59:34 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 9.4ms | Allocations: 903)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 58.9ms | Allocations: 9077)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 889)
+  Rendered layout layouts/application.html.erb (Duration: 83.2ms | Allocations: 15475)
+Completed 200 OK in 126ms (Views: 89.3ms | ActiveRecord: 2.9ms | Allocations: 25111)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-10-07 21:59:38 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.9ms | Allocations: 241)
+  Rendered devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 228)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.6ms | Allocations: 2453)
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 888)
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 8861)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms | Allocations: 10386)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 22:23:35 +0100
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13799.0ms | Allocations: 73027)
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 1228)
+  Rendered layout layouts/application.html.erb (Duration: 13823.2ms | Allocations: 80401)
+Completed 200 OK in 13842ms (Views: 13833.3ms | ActiveRecord: 0.0ms | Allocations: 86343)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 22:27:59 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 949)
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 1234)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 8081)
+Completed 200 OK in 29ms (Views: 26.4ms | Allocations: 9310)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 22:28:30 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 949)
+  Rendered layouts/_header.html.erb (Duration: 8.3ms | Allocations: 1223)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 8068)
+Completed 200 OK in 53ms (Views: 51.4ms | Allocations: 9265)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 22:28:57 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 949)
+  Rendered layouts/_header.html.erb (Duration: 4.1ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 8035)
+Completed 200 OK in 29ms (Views: 27.5ms | Allocations: 9190)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 22:29:01 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.4ms | Allocations: 156)
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 6575)
+Completed 200 OK in 34ms (Views: 29.7ms | Allocations: 6967)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-07 23:24:40 +0100
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 15.8ms | Allocations: 903)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 97.1ms | Allocations: 6261)
+  Rendered layouts/_header.html.erb (Duration: 4.8ms | Allocations: 948)
+  Rendered layout layouts/application.html.erb (Duration: 145.4ms | Allocations: 12725)
+Completed 200 OK in 198ms (Views: 149.7ms | ActiveRecord: 6.8ms | Allocations: 22145)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:27:03 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 8.7ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 103.0ms | Allocations: 6468)
+Completed 200 OK in 106ms (Views: 104.8ms | ActiveRecord: 0.0ms | Allocations: 6819)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:28:29 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 6429)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 6748)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:28:31 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 6452)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 6776)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:28:32 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 6441)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 6759)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:30:48 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 6429)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 6766)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:32:10 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 2.1ms | Allocations: 196)
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 1435)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 7783)
+Completed 200 OK in 40ms (Views: 36.6ms | Allocations: 8922)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:34:26 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 4.5ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 12398.0ms | Allocations: 37816)
+Completed 200 OK in 12401ms (Views: 12400.1ms | Allocations: 38147)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 23:34:46 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 767)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 7033)
+Completed 200 OK in 31ms (Views: 30.2ms | Allocations: 7401)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 23:35:11 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 597)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 6860)
+Completed 200 OK in 32ms (Views: 31.2ms | Allocations: 7175)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 23:36:03 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 597)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 710)
+  Rendered layout layouts/application.html.erb (Duration: 12961.3ms | Allocations: 37268)
+Completed 200 OK in 12963ms (Views: 12962.5ms | Allocations: 37583)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-07 23:37:04 +0100
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 598)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 12151.5ms | Allocations: 37478)
+Completed 200 OK in 12154ms (Views: 12152.7ms | Allocations: 37793)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:37:47 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 7.2ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 6636)
+Completed 200 OK in 39ms (Views: 34.6ms | Allocations: 6951)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:39:00 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 912)
+  Rendered layout layouts/application.html.erb (Duration: 13214.2ms | Allocations: 37885)
+Completed 200 OK in 13216ms (Views: 13215.2ms | Allocations: 38200)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:39:49 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 6645)
+Completed 200 OK in 30ms (Views: 28.8ms | Allocations: 6982)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:41:11 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 12277.7ms | Allocations: 19386)
+Completed 500 Internal Server Error in 12282ms (Allocations: 19710)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 585:3 of app/assets/stylesheets/application.scss
+>>   rgba(153, 153, 153, 0, 0);
+
+   --^
+):
+    13: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    14:     <%= csrf_meta_tags %>
+    15:     <%= csp_meta_tag %>
+    16:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    17:     <%= javascript_importmap_tags %>
+    18:   </head>
+    19:   <body>
+  
+app/assets/stylesheets/application.scss:585
+app/views/layouts/application.html.erb:16
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:41:34 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 10204.4ms | Allocations: 15507)
+Completed 500 Internal Server Error in 10209ms (Allocations: 15822)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 585:3 of app/assets/stylesheets/application.scss
+>>   rgba(153, 153, 153, 0, 0);
+
+   --^
+):
+    13: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    14:     <%= csrf_meta_tags %>
+    15:     <%= csp_meta_tag %>
+    16:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    17:     <%= javascript_importmap_tags %>
+    18:   </head>
+    19:   <body>
+  
+app/assets/stylesheets/application.scss:585
+app/views/layouts/application.html.erb:16
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:42:03 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 10845.1ms | Allocations: 15188)
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:42:13 +0100
+Completed 500 Internal Server Error in 10854ms (Allocations: 16067)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 585:3 of app/assets/stylesheets/application.scss
+>>   rgba(153, 153, 153, 0, 0);
+
+   --^
+):
+    13: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    14:     <%= csrf_meta_tags %>
+    15:     <%= csp_meta_tag %>
+    16:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    17:     <%= javascript_importmap_tags %>
+    18:   </head>
+    19:   <body>
+  
+app/assets/stylesheets/application.scss:585
+app/views/layouts/application.html.erb:16
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 11249.4ms | Allocations: 76255)
+Completed 500 Internal Server Error in 11251ms (Allocations: 76889)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 585:3 of app/assets/stylesheets/application.scss
+>>   rgba(153, 153, 153, 0, 0);
+
+   --^
+):
+    13: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    14:     <%= csrf_meta_tags %>
+    15:     <%= csp_meta_tag %>
+    16:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    17:     <%= javascript_importmap_tags %>
+    18:   </head>
+    19:   <body>
+  
+app/assets/stylesheets/application.scss:585
+app/views/layouts/application.html.erb:16
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:42:43 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 9671.6ms | Allocations: 15245)
+Completed 500 Internal Server Error in 9677ms (Allocations: 15528)
+
+
+  
+ActionView::Template::Error (Error: overloaded function `rgba` given wrong number of arguments
+        on line 585:3 of app/assets/stylesheets/application.scss
+>>   rgba(153, 153, 153, 0, 0.5);
+
+   --^
+):
+    13: <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    14:     <%= csrf_meta_tags %>
+    15:     <%= csp_meta_tag %>
+    16:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    17:     <%= javascript_importmap_tags %>
+    18:   </head>
+    19:   <body>
+  
+app/assets/stylesheets/application.scss:585
+app/views/layouts/application.html.erb:16
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:43:34 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 3.0ms | Allocations: 925)
+  Rendered layout layouts/application.html.erb (Duration: 11853.0ms | Allocations: 37369)
+Completed 200 OK in 11858ms (Views: 11857.0ms | Allocations: 37693)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:44:01 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12929.7ms | Allocations: 37304)
+Completed 200 OK in 12933ms (Views: 12931.9ms | Allocations: 37619)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:45:30 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11971.6ms | Allocations: 37831)
+Completed 200 OK in 11975ms (Views: 11974.1ms | Allocations: 38146)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:46:35 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11748.4ms | Allocations: 38335)
+Completed 200 OK in 11752ms (Views: 11749.6ms | Allocations: 38650)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:47:38 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11771.6ms | Allocations: 37253)
+Completed 200 OK in 11776ms (Views: 11775.1ms | Allocations: 37568)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:49:16 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12305.7ms | Allocations: 38309)
+Completed 200 OK in 12312ms (Views: 12310.1ms | Allocations: 38624)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:50:48 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12139.3ms | Allocations: 37261)
+Completed 200 OK in 12141ms (Views: 12140.5ms | Allocations: 37576)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:52:56 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11874.5ms | Allocations: 37291)
+Completed 200 OK in 11876ms (Views: 11875.5ms | Allocations: 37606)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:53:11 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 6.3ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 6648)
+Completed 200 OK in 33ms (Views: 32.7ms | Allocations: 6963)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:53:54 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11633.5ms | Allocations: 38345)
+Completed 200 OK in 11635ms (Views: 11634.8ms | Allocations: 38660)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:54:54 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 4.1ms | Allocations: 196)
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 1435)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 8008)
+Completed 200 OK in 37ms (Views: 35.7ms | Allocations: 9141)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:55:38 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12064.7ms | Allocations: 37458)
+Completed 200 OK in 12067ms (Views: 12066.1ms | Allocations: 37789)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:56:21 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12822.4ms | Allocations: 37289)
+Completed 200 OK in 12828ms (Views: 12827.0ms | Allocations: 37604)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:56:53 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 2.1ms | Allocations: 195)
+  Rendered layouts/_header.html.erb (Duration: 5.4ms | Allocations: 1435)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 7998)
+Completed 200 OK in 40ms (Views: 38.8ms | Allocations: 9141)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:57:32 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 4.0ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11964.9ms | Allocations: 38053)
+Completed 200 OK in 11967ms (Views: 11966.3ms | Allocations: 38384)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-07 23:59:12 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 912)
+  Rendered layout layouts/application.html.erb (Duration: 12393.4ms | Allocations: 37287)
+Completed 200 OK in 12397ms (Views: 12396.0ms | Allocations: 37602)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:01:47 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12055.5ms | Allocations: 37863)
+Completed 200 OK in 12057ms (Views: 12056.8ms | Allocations: 38178)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:03:09 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12029.8ms | Allocations: 37290)
+Completed 200 OK in 12033ms (Views: 12032.5ms | Allocations: 37606)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:05:08 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11780.3ms | Allocations: 37876)
+Completed 200 OK in 11783ms (Views: 11781.8ms | Allocations: 38191)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:05:32 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 5.2ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 6663)
+Completed 200 OK in 30ms (Views: 28.6ms | Allocations: 6978)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:05:35 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 6651)
+Completed 200 OK in 25ms (Views: 23.5ms | Allocations: 6966)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:05:37 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 6681)
+Completed 200 OK in 20ms (Views: 19.1ms | Allocations: 6996)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:06:36 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11826.6ms | Allocations: 37289)
+Completed 200 OK in 11830ms (Views: 11828.2ms | Allocations: 37626)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:07:32 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12294.3ms | Allocations: 37318)
+Completed 200 OK in 12298ms (Views: 12296.6ms | Allocations: 37633)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:08:59 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 9.4ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 13184.2ms | Allocations: 37305)
+Completed 200 OK in 13188ms (Views: 13187.5ms | Allocations: 37620)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:09:32 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12021.6ms | Allocations: 38398)
+Completed 200 OK in 12024ms (Views: 12023.5ms | Allocations: 38713)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:09:48 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 5.2ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 6642)
+Completed 200 OK in 27ms (Views: 25.8ms | Allocations: 6957)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:09:51 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 6660)
+Completed 200 OK in 21ms (Views: 19.6ms | Allocations: 6975)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:11:14 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 12205.2ms | Allocations: 37294)
+Completed 200 OK in 12208ms (Views: 12207.0ms | Allocations: 37609)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:12:09 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.7ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 11873.9ms | Allocations: 37320)
+Completed 200 OK in 11876ms (Views: 11875.0ms | Allocations: 37635)
+
+
