@@ -27,7 +27,7 @@ body {
     background-image: linear-gradient(to right bottom,
     rgba(126, 213, 111, 0.8),
     rgba(20, 180, 131, 0.8)), 
-    url("header.jpeg");
+    url("logo.png");
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
@@ -43,7 +43,7 @@ body {
 
 .logo{
     height: 25px;
-    border-radius: 40px;
+    border-radius: 20px;
     
 }
 
