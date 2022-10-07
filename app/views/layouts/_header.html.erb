@@ -1,0 +1,52 @@
+<nav class=" navbar navbar-expand-lg sticky-top navbar-light bg-light">
+          
+    <div class="container-fluid">
+      <a class="navbar-brand text-center" href=<%=root_path%> ><%=image_tag('logo.png', alt: "logo", class: "logo") %></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse nav-bar-destop navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <%= link_to "Battery", home_batteries_path, class: "nav-link nav-link-color" %>
+
+          </li>
+          <li class="nav-item">
+            <%= link_to "Inverters", home_inverters_path, class: "nav-link nav-link-color" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Solar", home_solar_path, class: "nav-link nav-link-color" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "FAQ", home_inquire_path, class: "nav-link nav-link-color" %>
+          </li>
+
+          <li class="nav-item">
+            <%= link_to "Installations", home_install_path, class: "nav-link nav-link-color" %>
+          </li>
+
+        </ul>
+        <div class="d-flex">
+             <%= link_to "Sign Out", destroy_user_session_path , method: :delete , class: "btn auth-btn register-btn" %>
+            <%=link_to "Log in", new_user_session_path , class: "btn auth-btn small-btn login-btn" %>
+            <%= link_to "Register", new_user_registration_path , class: "btn auth-btn register-btn small-btn" %>
+        </div>
+      </div>
+  
+      <div class=" nav-item mobile-path">
+        <div class = "search-container">
+        </div>
+          <a href= <% destroy_user_session_path %> class="mobile-login-btn">
+            <h3 class "signout">SignOut</h3>
+          </a>
+
+          <a href= <% new_user_session_path%> class="mobile-login-btn">
+            <h3 class="mobile-icon">Login</h3>
+          </a>
+          <a href= <%= new_user_registration_path %> class="mobile-register-btn">
+            <h3 class="mobile-icon">Register</h3>
+          </a>
+      </div>
+    </div>
+  </nav>
+
