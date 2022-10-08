@@ -960,3 +960,222 @@ Processing by HomeController#profile as HTML
 Completed 200 OK in 35ms (Views: 32.3ms | Allocations: 9164)
 
 
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:52:39 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.4ms | Allocations: 200)
+  Rendered layouts/_header.html.erb (Duration: 10.2ms | Allocations: 1456)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 8015)
+Completed 200 OK in 45ms (Views: 41.8ms | Allocations: 9170)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:55:50 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 1.8ms | Allocations: 200)
+  Rendered layouts/_header.html.erb (Duration: 4.5ms | Allocations: 1455)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 7999)
+Completed 200 OK in 35ms (Views: 33.6ms | Allocations: 9154)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:55:52 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 6645)
+Completed 200 OK in 24ms (Views: 22.7ms | Allocations: 6976)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:55:53 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 6649)
+Completed 200 OK in 29ms (Views: 27.9ms | Allocations: 6964)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2022-10-08 00:55:58 +0100
+Processing by HomeController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/profile.html.erb within layouts/application
+  Rendered home/profile.html.erb within layouts/application (Duration: 0.3ms | Allocations: 15)
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 911)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 6663)
+Completed 200 OK in 26ms (Views: 25.6ms | Allocations: 6978)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 00:58:46 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.9ms | Allocations: 1711)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 24.9ms | Allocations: 6122)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 6210)
+Completed 500 Internal Server Error in 40ms (Allocations: 7796)
+
+
+  
+ActionView::Template::Error (The asset "google_logo.svg" is not present in the asset pipeline.
+):
+    44:   
+    45:   <div class = "shift-google">
+    46:     <a class="button-log-google password-link">
+    47:       <% image_submit_tag("google_logo.svg") %> <span>Login with Google</span>
+    48:     </a>
+    49:   </div>
+    50:   
+  
+app/views/devise/sessions/new.html.erb:47
+app/views/devise/sessions/new.html.erb:8
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 00:59:16 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 10.1ms | Allocations: 1712)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 22.8ms | Allocations: 6087)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 6175)
+Completed 500 Internal Server Error in 36ms (Allocations: 7828)
+
+
+  
+ActionView::Template::Error (The asset "google_logo.svg" is not present in the asset pipeline.
+):
+    44:   
+    45:   <div class = "shift-google">
+    46:     <a class="button-log-google password-link">
+    47:       <!-- <% image_submit_tag("google_logo.svg") %> <span>Login with Google</span> -->
+    48:     </a>
+    49:   </div>
+    50:   
+  
+app/views/devise/sessions/new.html.erb:47
+app/views/devise/sessions/new.html.erb:8
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 00:59:54 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 7.0ms | Allocations: 1712)
+  Rendered devise/shared/_links.html.erb (Duration: 3.1ms | Allocations: 568)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 31.0ms | Allocations: 5880)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 694)
+  Rendered layout layouts/application.html.erb (Duration: 64.8ms | Allocations: 12355)
+Completed 200 OK in 71ms (Views: 68.8ms | Allocations: 14046)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 01:00:17 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.9ms | Allocations: 571)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 20.6ms | Allocations: 4094)
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 1419)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 11572)
+Completed 200 OK in 53ms (Views: 49.9ms | Allocations: 13239)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-10-08 01:01:06 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.4ms | Allocations: 232)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 97)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 14.2ms | Allocations: 2151)
+  Rendered layouts/_header.html.erb (Duration: 4.7ms | Allocations: 947)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 8839)
+Completed 200 OK in 46ms (Views: 43.7ms | Allocations: 10186)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-10-08 01:02:40 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.3ms | Allocations: 232)
+  Rendered devise/shared/_links.html.erb (Duration: 2.5ms | Allocations: 523)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 2632)
+  Rendered layouts/_header.html.erb (Duration: 16.5ms | Allocations: 1418)
+  Rendered layout layouts/application.html.erb (Duration: 56.3ms | Allocations: 10120)
+Completed 200 OK in 66ms (Views: 62.3ms | Allocations: 11721)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-10-08 01:02:44 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 86)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1266)
+  Rendered layouts/_header.html.erb (Duration: 4.8ms | Allocations: 898)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 7709)
+Completed 200 OK in 38ms (Views: 36.6ms | Allocations: 8397)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 01:03:49 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 2115)
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 951)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 8806)
+Completed 200 OK in 55ms (Views: 50.8ms | Allocations: 10131)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 01:05:16 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1333)
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 899)
+  Rendered layout layouts/application.html.erb (Duration: 11281.7ms | Allocations: 39475)
+Completed 200 OK in 11286ms (Views: 11284.0ms | Allocations: 40243)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 01:06:02 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1333)
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 899)
+  Rendered layout layouts/application.html.erb (Duration: 11778.7ms | Allocations: 39432)
+Completed 200 OK in 11783ms (Views: 11781.3ms | Allocations: 40113)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-10-08 01:06:19 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 86)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1267)
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 898)
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 7710)
+Completed 200 OK in 47ms (Views: 45.1ms | Allocations: 8333)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2022-10-08 01:06:23 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 86)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1266)
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 898)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 7709)
+Completed 200 OK in 26ms (Views: 24.6ms | Allocations: 8318)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2022-10-08 01:06:28 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1333)
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 899)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 7773)
+Completed 200 OK in 35ms (Views: 28.3ms | Allocations: 8438)
+
+
